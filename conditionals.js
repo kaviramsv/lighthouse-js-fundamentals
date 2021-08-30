@@ -35,14 +35,29 @@
 // console.log("Now you're ready to go outside!");
 // --------------------------------
 
-const temperature = 12;
+// const temperature = 12;
 
-if (temperature >25) {
-  console.log("Make sure you wear sleeveless!");
-} else if (temperature >15) {
-  console.log("Short sleeves won't hurt");
-} else {
-  console.log("jackets are needed.");
-}
+// if (temperature >25) {
+//   console.log("Make sure you wear sleeveless!");
+// } else if (temperature >15) {
+//   console.log("Short sleeves won't hurt");
+// } else {
+//   console.log("jackets are needed.");
+// }
 
-console.log("Now you're ready to go outside!");
+// console.log("Now you're ready to go outside!");
+
+
+// ============logical============================/
+// const isCitizen = true;
+// const age = 16;
+
+// if (isCitizen && age > 18) {
+//   console.log("You are eligible to vote.");
+// }
+
+
+var temperature=42;
+if (temperature < -40 || temperature > 40) {
+    console.log("Maybe going outside isn't such a great idea…");
+  }
